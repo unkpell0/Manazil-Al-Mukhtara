@@ -11,12 +11,11 @@
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.2",
-    "@": "latest"
+    "react-router-dom": "^7.6.2"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "typescript": "~5.7.2",
-    "vite": "^6.2.0"
+    "vite": "^5.2.0"
   }
 }
