@@ -9,6 +9,7 @@ import { ConfirmationPage } from './pages/ConfirmationPage';
 import { BookingProvider, useBooking } from './contexts/BookingContext';
 import { APP_ROUTES } from './constants';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 interface ProtectedRouteProps {
   children: JSX.Element;
@@ -77,6 +78,7 @@ const App: React.FC = () => {
       <HashRouter>
         <AppRoutes />
         <Analytics />
+        <SpeedInsights />
       </HashRouter>
     </BookingProvider>
   );
